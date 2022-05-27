@@ -32,7 +32,6 @@ header{
     border-left: 80px solid transparent;
     border-right: 80px solid transparent;
     z-index: 1;
-    
 }
 header img{
     width: 140px;
@@ -64,7 +63,7 @@ header li:last-child{
 /*TEXTO_IMAGEM*/
 .img_fundo h1{
     color: white;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     margin-left: 23px;
     font-size: 3rem;
 }
@@ -76,6 +75,7 @@ header li:last-child{
     padding: 15px 110px;
     border-radius: 3px;
     margin-left: 19px;
+    font-size: 20px;
 }
 /*IMAGEM DE FUNDO MENU*/
 .img_fundo{
@@ -88,6 +88,20 @@ header li:last-child{
     flex-direction: column;
     padding: 40px;
     filter: brightness(90%);
+}/*CORPO DO SITE*/
+.teste{
+    display: flex;
+}
+.teste img{
+    margin: 5px 5px 0px 0px;
+    max-width: 100vh;
+    min-height: 10vh;
+    
+}
+.btn-conquist{
+    display: flex;
+    align-items: flex-end;
+    
 }
 
 /*RESPONSIVE*/
@@ -97,8 +111,20 @@ header li:last-child{
         padding: 15px;
     }
     header li a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
+    .img_fundo h1{
+        font-size: 1.9rem;
+        margin-left: 0px;
+    }
+    .btn-discovery{
+        margin-left: 0px;
+        
+    }
+    .teste{
+        flex-direction: column;
+    }
+    
   
 }
 
