@@ -79,7 +79,7 @@ header li:last-child{
 }
 /*IMAGEM DE FUNDO MENU*/
 .img_fundo{
-    background-image: url("../img/fundo_site.jpg");
+    background-image: url("../header/img/fundo_site.jpg");
     background-size: cover;
     min-height: 90vh;
     display: flex;
@@ -97,10 +97,32 @@ header li:last-child{
     max-width: 100vh;
     min-height: 10vh;
     
-}
-.btn-conquist{
+}.quadrado_lower{
     display: flex;
-    align-items: flex-end;
+    
+}
+.quadrado_lower li{
+    text-decoration: none;
+    display: flex;
+    padding: 50px 115px;
+    background-color: #f2f2f2;
+    margin: 20px 10px 0px 0px;
+    
+}
+.quadrado_lower h1{
+    font-size: 1.3rem;
+}
+/*RODAPÉ*/
+.tit_rodape img{
+    width: 50px;
+}
+.tit_rodape li{
+    list-style: none;
+   
+}
+.tit_rodape{
+    display: flex;
+    justify-content: flex-end;
     
 }
 
@@ -113,6 +135,9 @@ header li:last-child{
     header li a{
         font-size: 0.9rem;
     }
+    header img{
+        margin-bottom: 20px;
+    }
     .img_fundo h1{
         font-size: 1.9rem;
         margin-left: 0px;
@@ -124,7 +149,12 @@ header li:last-child{
     .teste{
         flex-direction: column;
     }
-    
+    .quadrado_lower{
+        flex-direction: column;
+    }
+    .tit_rodape{
+        justify-content: center;
+    }
   
 }
 
