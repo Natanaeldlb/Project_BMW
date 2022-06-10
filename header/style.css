@@ -60,8 +60,25 @@ header li:last-child{
     margin-right: 0;
 }
 @media(max-width: 600px){
-    
+    header{
+        flex-direction: column-reverse;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*TEXTO_IMAGEM*/
 .img_fundo h1{
     color: white;
@@ -91,6 +108,20 @@ header li:last-child{
     padding: 40px;
     filter: brightness(90%);
 }
+@media(max-width: 600px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 /*CORPO DO SITE*/
 .controler{
     display: flex;
@@ -125,6 +156,38 @@ header li:last-child{
 #img2{
    width: 100%;
 }
+@media(max-width: 600px){
+   .controler{
+       flex-direction: column;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*MENU ABAIXO DAS IMAGENS*/
 .container{
@@ -196,6 +259,33 @@ margin-left: 50px;
 margin-bottom: 0px;
     
 }
+@media(max-width: 600px){
+   .container{
+       flex-direction: column;
+   }
+   .mid_web{
+       flex-direction: column;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*RODAPÉ*/
